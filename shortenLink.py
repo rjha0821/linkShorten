@@ -6,3 +6,4 @@ shortener = pyshorteners.Shortener()  # class object
 x = shortener.tinyurl.short(link)  # shorting the link
 
 print(x)
+input('\nPress ENTER to exit')
